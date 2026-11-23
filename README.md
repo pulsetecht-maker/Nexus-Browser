@@ -1,31 +1,30 @@
 # NEXUS BROWSER
 
-\<p align="center">
-&#x20; \<img src="assets/nexus-logo.png" alt="Nexus Browser" width="104" />
-\</p>
+<p align="center">
+  <img src="assets/nexus-logo.png" alt="Nexus Browser" width="104">
+</p>
 
-\<h3 align="center">Explore beyond.\</h3>
+<h3 align="center">Explore beyond.</h3>
 
-\<p align="center">
-&#x20; A different perspective on browsing.
-&#x20; \<br />
-&#x20; Built for the modern web. Designed around intelligent experiences.
-\</p>
+<p align="center">
+  A different perspective on browsing.<br>
+  Built for the modern web. Designed around intelligent experiences.
+</p>
 
-\<p align="center">
-&#x20; \<a href="#overview">Overview\</a> ·
-&#x20; \<a href="#experience">Experience\</a> ·
-&#x20; \<a href="#nexus-ai">Nexus AI\</a> ·
-&#x20; \<a href="#technology">Technology\</a> ·
-&#x20; \<a href="#installation">Installation\</a>
-\</p>
+<p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#experience">Experience</a> ·
+  <a href="#nexus-ai">Nexus AI</a> ·
+  <a href="#technology">Technology</a> ·
+  <a href="#installation">Installation</a>
+</p>
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Platform-Windows-64748b?style=flat-square&logo=windows](https://img.shields.io/badge/Platform-Windows-64748b?style=flat-square\&logo=windows)" />
-&#x20; \<img src="[https://img.shields.io/badge/Framework-Electron-64748b?style=flat-square&logo=electron](https://img.shields.io/badge/Framework-Electron-64748b?style=flat-square\&logo=electron)" />
-&#x20; \<img src="[https://img.shields.io/badge/Language-JavaScript-64748b?style=flat-square&logo=javascript](https://img.shields.io/badge/Language-JavaScript-64748b?style=flat-square\&logo=javascript)" />
-&#x20; \<img src="[https://img.shields.io/badge/Development-Active-16a34a?style=flat-square](https://img.shields.io/badge/Development-Active-16a34a?style=flat-square)" />
-\</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows-64748b?style=flat-square&logo=windows" alt="Windows">
+  <img src="https://img.shields.io/badge/Framework-Electron-64748b?style=flat-square&logo=electron" alt="Electron">
+  <img src="https://img.shields.io/badge/Language-JavaScript-64748b?style=flat-square&logo=javascript" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Development-Active-16a34a?style=flat-square" alt="Development status">
+</p>
 
 ---
 
@@ -39,7 +38,7 @@ Developed with Electron, Nexus combines everyday web navigation with an integrat
 
 Rather than treating artificial intelligence as a separate destination, Nexus brings it closer to the browsing experience.
 
-One environment. Multiple possibilities.
+**One environment. Multiple possibilities.**
 
 ---
 
@@ -96,25 +95,23 @@ The AI system is built around NVIDIA API integration, with performance, response
 
 ## Interface Preview
 
-\<p align="center">
-&#x20; \<img src="assets/screenshots/home.png" alt="Nexus Browser Home" width="100%" />
-&#x20; \<br />
-&#x20; \<em>The Nexus home experience.\</em>
-\</p>
+<p align="center">
+  <img src="assets/screenshots/home.png" alt="Nexus Browser Home" width="100%">
+  <br>
+  <em>The Nexus home experience.</em>
+</p>
 
-\<p align="center">
-&#x20; \<img src="assets/screenshots/browser.png" alt="Nexus Browser Interface" width="100%" />
-&#x20; \<br />
-&#x20; \<em>Browsing interface.\</em>
-\</p>
+<p align="center">
+  <img src="assets/screenshots/browser.png" alt="Nexus Browser Interface" width="100%">
+  <br>
+  <em>Browsing interface.</em>
+</p>
 
-\<p align="center">
-&#x20; \<img src="assets/screenshots/nexus-ai.png" alt="Nexus AI Interface" width="100%" />
-&#x20; \<br />
-&#x20; \<em>Nexus AI assistant.\</em>
-\</p>
-
-> Screenshots will be replaced with official captures from the current application.
+<p align="center">
+  <img src="assets/screenshots/nexus-ai.png" alt="Nexus AI Interface" width="100%">
+  <br>
+  <em>Nexus AI assistant.</em>
+</p>
 
 ---
 
@@ -122,13 +119,13 @@ The AI system is built around NVIDIA API integration, with performance, response
 
 Nexus Browser uses modern desktop development technologies.
 
-| Technology | Role                                |
-| ---------- | ----------------------------------- |
-| Electron   | Desktop application framework       |
-| JavaScript | Application logic                   |
-| HTML5      | Interface structure                 |
-| CSS3       | Visual presentation                 |
-| Node.js    | Runtime environment                 |
+| Technology | Role |
+|---|---|
+| Electron | Desktop application framework |
+| JavaScript | Application logic |
+| HTML5 | Interface structure |
+| CSS3 | Visual presentation |
+| Node.js | Runtime environment |
 | NVIDIA API | Artificial intelligence integration |
 
 ---
@@ -143,35 +140,54 @@ The intended release experience is simple: download, install, and start browsing
 
 **Planned distribution channels**
 
-| Package           | Description                     |
-| ----------------- | ------------------------------- |
+| Package | Description |
+|---|---|
 | Windows Installer | Traditional `.exe` installation |
-| Portable Edition  | Standalone executable           |
-| GitHub Releases   | Official version distribution   |
-| Automatic Updates | Future in-app update mechanism  |
+| Portable Edition | Standalone executable |
+| GitHub Releases | Official version distribution |
+| Automatic Updates | Future in-app update mechanism |
 
-\<sub>These distribution options are planned and should not be considered available until published in an official release.\</sub>
+> These distribution options are planned and should not be considered available until published in an official release.
 
-### Installation for developers
+---
+
+## Installation
+
+### For developers
 
 To run the project locally, you will need Node.js, npm, and Git.
 
+Clone the repository:
+
 ```bash
 git clone YOUR_REPOSITORY_URL
+```
+
+Navigate to the project:
+
+```bash
 cd nexus-browser
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the application:
+
+```bash
 npm start
 ```
 
-The commands above are subject to confirmation against the current project configuration.
+*Verify the commands against the current project configuration.*
 
 ---
 
 ## Development Roadmap
 
 Nexus Browser is an actively evolving project.
-
-The development priorities include:
 
 - [ ] Improve overall performance and stability.
 - [ ] Refine the browsing interface.
@@ -201,9 +217,8 @@ The project's licensing terms will be defined before its public distribution.
 
 ---
 
-\<p align="center">
-&#x20; \<strong>NEXUS BROWSER\</strong>
-&#x20; \<br />
-&#x20; Explore beyond the limits of conventional browsing.
-\</p>
-
+<p align="center">
+  <strong>NEXUS BROWSER</strong>
+  <br>
+  Explore beyond the limits of conventional browsing.
+</p>
